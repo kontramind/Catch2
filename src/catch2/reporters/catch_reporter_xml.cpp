@@ -8,7 +8,8 @@
 
 #include <catch2/reporters/catch_reporter_xml.hpp>
 
-#include <catch2/catch_capture.hpp>
+#include <catch2/internal/catch_capture.hpp>
+#include <catch2/internal/catch_string_manip.hpp>
 #include <catch2/catch_reporter_registrars.hpp>
 #include <catch2/catch_list.h>
 

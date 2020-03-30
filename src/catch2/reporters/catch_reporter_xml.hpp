@@ -9,7 +9,7 @@
 
 #include <catch2/reporters/catch_reporter_bases.hpp>
 
-#include <catch2/catch_xmlwriter.h>
+#include <catch2/internal/catch_xmlwriter.hpp>
 #include <catch2/catch_timer.h>
 
 

@@ -6,8 +6,8 @@
  *  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
  */
 
-#include <catch2/catch_compiler_capabilities.h>
-#include <catch2/catch_uncaught_exceptions.h>
+#include <catch2/internal/catch_compiler_capabilities.hpp>
+#include <catch2/internal/catch_uncaught_exceptions.hpp>
 #include <exception>
 
 namespace Catch {

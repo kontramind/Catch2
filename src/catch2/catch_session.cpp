@@ -6,7 +6,6 @@
  */
 
 #include <catch2/catch_session.h>
-#include <catch2/catch_commandline.h>
 #include <catch2/catch_console_colour.h>
 #include <catch2/catch_enforce.h>
 #include <catch2/catch_list.h>
@@ -17,10 +16,10 @@
 #include <catch2/catch_version.h>
 #include <catch2/catch_interfaces_reporter.h>
 #include <catch2/catch_random_number_generator.h>
-#include <catch2/catch_startup_exception_registry.h>
-#include <catch2/catch_text.h>
+#include <catch2/internal/catch_startup_exception_registry.hpp>
+#include <catch2/internal/catch_text.hpp>
 #include <catch2/catch_stream.h>
-#include <catch2/catch_windows_h_proxy.h>
+#include <catch2/internal/catch_windows_h_proxy.hpp>
 #include <catch2/reporters/catch_reporter_listening.hpp>
 
 #include <cstdlib>

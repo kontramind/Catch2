@@ -6,9 +6,9 @@
  *  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
  */
 
-#include <catch2/catch_commandline.h>
+#include <catch2/internal/catch_commandline.hpp>
 
-#include <catch2/catch_string_manip.h>
+#include <catch2/internal/catch_string_manip.hpp>
 
 #include <catch2/catch_interfaces_registry_hub.h>
 #include <catch2/catch_interfaces_reporter.h>

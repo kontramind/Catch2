@@ -8,7 +8,7 @@
 
 #include <catch2/catch_message.h>
 #include <catch2/catch_interfaces_capture.h>
-#include <catch2/catch_uncaught_exceptions.h>
+#include <catch2/internal/catch_uncaught_exceptions.hpp>
 #include <catch2/catch_enforce.h>
 
 #include <cassert>
