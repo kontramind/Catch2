@@ -3,4 +3,4 @@
  *  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
  */
 
-#include <catch2/catch_default_main.hpp>
+#include <catch2/internal/catch_default_main.hpp>

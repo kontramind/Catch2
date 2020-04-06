@@ -50,7 +50,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_debug_console.h
     ${SOURCES_DIR}/catch_debugger.h
     ${SOURCES_DIR}/catch_decomposer.h
-    ${SOURCES_DIR}/catch_default_main.hpp
+    ${SOURCES_DIR}/internal/catch_default_main.hpp
     ${SOURCES_DIR}/catch_enforce.h
     ${SOURCES_DIR}/catch_enum_values_registry.h
     ${SOURCES_DIR}/internal/catch_errno_guard.hpp
@@ -87,7 +87,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/internal/catch_option.hpp
     ${SOURCES_DIR}/internal/catch_output_redirect.hpp
     ${SOURCES_DIR}/internal/catch_platform.hpp
-    ${SOURCES_DIR}/catch_polyfills.hpp
+    ${SOURCES_DIR}/internal/catch_polyfills.hpp
     ${SOURCES_DIR}/internal/catch_preprocessor.hpp
     ${SOURCES_DIR}/catch_random_number_generator.h
     ${SOURCES_DIR}/catch_reporter_registrars.hpp
@@ -165,7 +165,7 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/internal/catch_output_redirect.cpp
     ${SOURCES_DIR}/catch_registry_hub.cpp
     ${SOURCES_DIR}/catch_interfaces_reporter.cpp
-    ${SOURCES_DIR}/catch_polyfills.cpp
+    ${SOURCES_DIR}/internal/catch_polyfills.cpp
     ${SOURCES_DIR}/catch_random_number_generator.cpp
     ${SOURCES_DIR}/catch_reporter_registry.cpp
     ${SOURCES_DIR}/catch_result_type.cpp
@@ -271,7 +271,7 @@ target_include_directories(Catch2
 
 
 add_library(Catch2Main STATIC
-    ${SOURCES_DIR}/catch_main.cpp
+    ${SOURCES_DIR}/internal/catch_main.cpp
 )
 add_library(Catch2::Catch2Main ALIAS Catch2Main)
 target_link_libraries(Catch2Main PUBLIC Catch2)
