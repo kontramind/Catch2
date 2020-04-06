@@ -111,7 +111,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_test_macros.hpp
     ${SOURCES_DIR}/catch_test_registry.h
     ${SOURCES_DIR}/catch_test_spec.h
-    ${SOURCES_DIR}/catch_test_spec_parser.h
+    ${SOURCES_DIR}/internal/catch_test_spec_parser.hpp
     ${SOURCES_DIR}/internal/catch_text.hpp
     ${SOURCES_DIR}/catch_timer.h
     ${SOURCES_DIR}/internal/catch_to_string.hpp
@@ -185,7 +185,7 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/catch_test_case_tracker.cpp
     ${SOURCES_DIR}/catch_test_registry.cpp
     ${SOURCES_DIR}/catch_test_spec.cpp
-    ${SOURCES_DIR}/catch_test_spec_parser.cpp
+    ${SOURCES_DIR}/internal/catch_test_spec_parser.cpp
     ${SOURCES_DIR}/catch_timer.cpp
     ${SOURCES_DIR}/catch_tostring.cpp
     ${SOURCES_DIR}/catch_totals.cpp

@@ -16,7 +16,7 @@
 #include <catch2/catch_stream.h>
 
 #include <catch2/catch_console_colour.h>
-#include <catch2/catch_test_spec_parser.h>
+#include <catch2/internal/catch_test_spec_parser.hpp>
 #include <catch2/catch_tostring.h>
 #include <catch2/internal/catch_string_manip.hpp>
 
