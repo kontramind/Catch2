@@ -91,6 +91,7 @@ target_compile_features(Catch2
 )
 
 target_include_directories(Catch2
+  SYSTEM
   INTERFACE
     $<BUILD_INTERFACE:${CMAKE_CURRENT_LIST_DIR}/single_include>
     $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
